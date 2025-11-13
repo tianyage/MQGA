@@ -92,7 +92,9 @@
 > 以下版本无论是否使用模块均可获得相对较好的体验，欢迎尝试
 
 ### [QQ NT（当前最新版）](https://im.qq.com/index/#downloadAnchor)
-最新版 QQ 基于 [Election](https://www.electronjs.org/zh/) 重构，同时更改了聊天消息存储结构，性能得到大幅提升，若未尝试过 8.9.63 及以上版本则极力推荐尝试
+最新版 QQ 基于 [Electron](https://www.electronjs.org/zh/) 重构，同时更改了聊天消息存储结构，性能得到大幅提升，若未尝试过 8.9.63 及以上版本则极力推荐尝试。
+
+但请注意，基于最新版 QQ 修补的版本，部分模块功能可能因为未适配而失效，请酌情使用
 
 ### [QQ 8.9.58.11175](https://downv6.qq.com/qqweb/QQ_1/android_apk/Android_8.9.58_64_HB2.apk)
 最后一个**不**基于 QQ_NT 的版本
