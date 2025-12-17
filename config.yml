@@ -4,7 +4,7 @@
 
 # [LSPatch]
 LSPatch:
-  repo: "JingMatrix/LSPatch"
+  repo: "LSPosed/LSPatch"
 # 选择使用的 LSPatch 项目（需在 releases 中提供 .jar 文件）
 # JingMatrix 维护的 LSPatch 分支已适配 Android 15，若在高版本遇到兼容性问题可考虑使用
 # 将官方仓库 "LSPosed/LSPatch" 更改为 "JingMatrix/LSPatch" 即可（使用该分支产生的后果请自负）
@@ -40,8 +40,8 @@ modules:
 QQ:
   custom:
     enable: true # 选择是否修补自定义版本 QQ
-    version: "9.2.30" # 自定义QQ版本号（影响最终修补后的文件名）
-    url: "https://ucdl.25pp.com/fs08/2025/11/14/10/110_a5a1e524dfe237d61cf3189412168b82.apk?yingid=web_space&packageid=206232935&did=cabc2beb0f9aa23645c08dd35cc655c3"
+    version: "9.2.25" # 自定义QQ版本号（影响最终修补后的文件名）
+    url: "https://ucdl.25pp.com/fs08/2025/10/23/1/110_0903a885ed217cf35a833c47128238fa.apk?yingid=web_space&packageid=206127339&did=169255f14b32694b405229d7e9790382"
     # 自定义 QQ 版本下载链接（确保此链接可直接下载文件）
     # 建议使用 Arm64 安装包，否则需手动更改 Acion Workflow 配置文件中 QAuxiliary 的下载文件名后缀
 
