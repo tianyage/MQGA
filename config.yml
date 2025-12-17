@@ -4,7 +4,7 @@
 
 # [LSPatch]
 LSPatch:
-  repo: "LSPosed/LSPatch"
+  repo: "JingMatrix/LSPatch"
 # 选择使用的 LSPatch 项目（需在 releases 中提供 .jar 文件）
 # JingMatrix 维护的 LSPatch 分支已适配 Android 15，若在高版本遇到兼容性问题可考虑使用
 # 将官方仓库 "LSPosed/LSPatch" 更改为 "JingMatrix/LSPatch" 即可（使用该分支产生的后果请自负）
@@ -13,17 +13,17 @@ LSPatch:
 modules:
   # --- 预设模块 ---
   # 将值设为 true 来启用模块，设为 false 则禁用
-  QAuxiliary: true
-  XAutoDaily: true
-  TSBattery: true
+  QAuxiliary: false
+  XAutoDaily: false
+  TSBattery: false
   QQCleaner: false
 
   # --- 自定义模块 ---
   custom:
     enable: false # 是否启用自定义模块下载，默认禁用
     list:
-    - name: "QStory" # 示例：QStory
-      download_link: "https://qstory.sacz.top/update/download"
+    - name: "QFun" # 示例：QStory
+      download_link: "https://github.com/Xposed-Modules-Repo/me.yxp.qfun/releases/download/14-1.2.2/QFun_1.2.2.apk"
   # - name: "模块名称"
   #   download_link: "下载链接"
   # 参考上述模板即可添加多个自定义模块（注意对齐空格）
