@@ -23,7 +23,7 @@ modules:
     enable: true # 是否启用自定义模块下载，默认禁用
     list:
     - name: "QFun" # 示例：QStory
-      download_link: "https://github.com/Xposed-Modules-Repo/me.yxp.qfun/releases/download/14-1.2.2/QFun_1.2.2.apk"
+      url: "https://github.com/Xposed-Modules-Repo/me.yxp.qfun/releases/download/14-1.2.2/QFun_1.2.2.apk"
   # - name: "模块名称"
   #   download_link: "下载链接"
   # 参考上述模板即可添加多个自定义模块（注意对齐空格）
@@ -51,4 +51,4 @@ QQ:
 # 修补设置
 # -----------------
 force:
-  enable: true:# 选择是否每次执行时均进行修补，忽略版本更新检查（不推荐长
+  enable: true # 选择是否每次执行时均进行修补，忽略版本更新检查（不推荐长
