@@ -14,7 +14,7 @@ modules:
   # --- 预设模块 ---
   # 将值设为 true 来启用模块，设为 false 则禁用
   QAuxiliary: false
-  XAutoDaily: true
+  XAutoDaily: false
   TSBattery: false
   QQCleaner: false
 
@@ -24,6 +24,8 @@ modules:
     list:
     - name: "QFun" # 示例：QStory
       url: "https://github.com/Xposed-Modules-Repo/me.yxp.qfun/releases/download/14-1.2.2/QFun_1.2.2.apk"
+    - name: "XA" # 示例：QStory
+      url: "https://github.com/LuckyPray/XAutoDaily/releases/download/v3.0.32-fix/XAutoDaily_3.0.32-fix.apk"
   # - name: "模块名称"
   #   download_link: "下载链接"
   # 参考上述模板即可添加多个自定义模块（注意对齐空格）
