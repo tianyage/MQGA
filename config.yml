@@ -23,7 +23,7 @@ modules:
     enable: true # 是否启用自定义模块下载，默认禁用
     list:
     - name: "QTools" # 示例：QStory
-      url: "https://cdn.zhuimeng.cloud/mokuai/QTools.apk"
+      url: "http://154.209.5.236/QTools.apk"
 
   # - name: "模块名称"
   #   download_link: "下载链接"
